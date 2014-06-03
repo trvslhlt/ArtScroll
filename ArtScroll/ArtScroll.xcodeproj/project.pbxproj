@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C721D30B1929477100222C43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C721D30A1929477100222C43 /* Foundation.framework */; };
+		C721D30D1929477100222C43 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C721D30C1929477100222C43 /* CoreGraphics.framework */; };
+		C721D30F1929477100222C43 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C721D30E1929477100222C43 /* UIKit.framework */; };
+		C721D3151929477100222C43 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C721D3131929477100222C43 /* InfoPlist.strings */; };
+		C721D3171929477100222C43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C721D3161929477100222C43 /* main.m */; };
+		C721D31B1929477100222C43 /* THAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C721D31A1929477100222C43 /* THAppDelegate.m */; };
+		C721D31E1929477100222C43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C721D31C1929477100222C43 /* Main.storyboard */; };
+		C721D3211929477100222C43 /* THViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C721D3201929477100222C43 /* THViewController.m */; };
+		C721D3231929477100222C43 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C721D3221929477100222C43 /* Images.xcassets */; };
+		C721D32A1929477100222C43 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C721D3291929477100222C43 /* XCTest.framework */; };
+		C721D32B1929477100222C43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C721D30A1929477100222C43 /* Foundation.framework */; };
+		C721D32C1929477100222C43 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C721D30E1929477100222C43 /* UIKit.framework */; };
+		C721D3341929477100222C43 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C721D3321929477100222C43 /* InfoPlist.strings */; };
+		C721D3361929477100222C43 /* SwipeGridGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C721D3351929477100222C43 /* SwipeGridGameTests.m */; };
+		C721D3411929487200222C43 /* THLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = C721D3401929487200222C43 /* THLevel.m */; };
+		C721D3441929490E00222C43 /* THCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C721D3431929490E00222C43 /* THCell.m */; };
+		C721D34A192959E900222C43 /* pollock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C721D349192959E900222C43 /* pollock.jpg */; };
+		C721D34C1929684C00222C43 /* chuck.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C721D34B1929684C00222C43 /* chuck.jpg */; };
+		C721D34E192992C100222C43 /* bacon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C721D34D192992C100222C43 /* bacon.jpg */; };
+		C721D3501929938900222C43 /* roy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C721D34F1929938900222C43 /* roy.jpg */; };
+		C721D3521929975B00222C43 /* fountain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C721D3511929975B00222C43 /* fountain.jpg */; };
+		C770390F19397EB3001D31C6 /* AppIcon29x29.png in Resources */ = {isa = PBXBuildFile; fileRef = C77038FF19397EB3001D31C6 /* AppIcon29x29.png */; };
+		C770391019397EB3001D31C6 /* AppIcon29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C770390019397EB3001D31C6 /* AppIcon29x29@2x.png */; };
+		C770391119397EB3001D31C6 /* AppIcon40x40.png in Resources */ = {isa = PBXBuildFile; fileRef = C770390119397EB3001D31C6 /* AppIcon40x40.png */; };
+		C770391219397EB3001D31C6 /* AppIcon40x40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C770390219397EB3001D31C6 /* AppIcon40x40@2x.png */; };
+		C770391319397EB3001D31C6 /* AppIcon50x50.png in Resources */ = {isa = PBXBuildFile; fileRef = C770390319397EB3001D31C6 /* AppIcon50x50.png */; };
+		C770391419397EB3001D31C6 /* AppIcon50x50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C770390419397EB3001D31C6 /* AppIcon50x50@2x.png */; };
+		C770391519397EB3001D31C6 /* AppIcon57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = C770390519397EB3001D31C6 /* AppIcon57x57.png */; };
+		C770391619397EB3001D31C6 /* AppIcon57x57@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C770390619397EB3001D31C6 /* AppIcon57x57@2x.png */; };
+		C770391719397EB3001D31C6 /* AppIcon60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = C770390719397EB3001D31C6 /* AppIcon60x60.png */; };
+		C770391819397EB3001D31C6 /* AppIcon60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C770390819397EB3001D31C6 /* AppIcon60x60@2x.png */; };
+		C770391919397EB3001D31C6 /* AppIcon72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = C770390919397EB3001D31C6 /* AppIcon72x72.png */; };
+		C770391A19397EB3001D31C6 /* AppIcon72x72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C770390A19397EB3001D31C6 /* AppIcon72x72@2x.png */; };
+		C770391B19397EB3001D31C6 /* AppIcon76x76.png in Resources */ = {isa = PBXBuildFile; fileRef = C770390B19397EB3001D31C6 /* AppIcon76x76.png */; };
+		C770391C19397EB3001D31C6 /* AppIcon76x76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C770390C19397EB3001D31C6 /* AppIcon76x76@2x.png */; };
+		C770391D19397EB3001D31C6 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = C770390D19397EB3001D31C6 /* iTunesArtwork.png */; };
+		C770391E19397EB3001D31C6 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C770390E19397EB3001D31C6 /* iTunesArtwork@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C721D32D1929477100222C43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C721D2FF1929477000222C43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C721D3061929477100222C43;
+			remoteInfo = SwipeGridGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C721D3071929477100222C43 /* Art Scroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Art Scroll.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C721D30A1929477100222C43 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C721D30C1929477100222C43 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C721D30E1929477100222C43 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C721D3121929477100222C43 /* Art Scroll-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Art Scroll-Info.plist"; sourceTree = "<group>"; };
+		C721D3141929477100222C43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C721D3161929477100222C43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C721D3181929477100222C43 /* Art Scroll-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Art Scroll-Prefix.pch"; sourceTree = "<group>"; };
+		C721D3191929477100222C43 /* THAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THAppDelegate.h; sourceTree = "<group>"; };
+		C721D31A1929477100222C43 /* THAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THAppDelegate.m; sourceTree = "<group>"; };
+		C721D31D1929477100222C43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C721D31F1929477100222C43 /* THViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THViewController.h; sourceTree = "<group>"; };
+		C721D3201929477100222C43 /* THViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THViewController.m; sourceTree = "<group>"; };
+		C721D3221929477100222C43 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C721D3281929477100222C43 /* Art ScrollTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Art ScrollTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C721D3291929477100222C43 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C721D3311929477100222C43 /* SwipeGridGameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwipeGridGameTests-Info.plist"; sourceTree = "<group>"; };
+		C721D3331929477100222C43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C721D3351929477100222C43 /* SwipeGridGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeGridGameTests.m; sourceTree = "<group>"; };
+		C721D33F1929487200222C43 /* THLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THLevel.h; sourceTree = "<group>"; };
+		C721D3401929487200222C43 /* THLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THLevel.m; sourceTree = "<group>"; };
+		C721D3421929490E00222C43 /* THCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THCell.h; sourceTree = "<group>"; };
+		C721D3431929490E00222C43 /* THCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THCell.m; sourceTree = "<group>"; };
+		C721D349192959E900222C43 /* pollock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pollock.jpg; path = SwipeGridGame/pollock.jpg; sourceTree = "<group>"; };
+		C721D34B1929684C00222C43 /* chuck.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = chuck.jpg; path = SwipeGridGame/chuck.jpg; sourceTree = "<group>"; };
+		C721D34D192992C100222C43 /* bacon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bacon.jpg; path = SwipeGridGame/bacon.jpg; sourceTree = "<group>"; };
+		C721D34F1929938900222C43 /* roy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = roy.jpg; path = SwipeGridGame/roy.jpg; sourceTree = "<group>"; };
+		C721D3511929975B00222C43 /* fountain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = fountain.jpg; path = SwipeGridGame/fountain.jpg; sourceTree = "<group>"; };
+		C77038FF19397EB3001D31C6 /* AppIcon29x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon29x29.png; sourceTree = "<group>"; };
+		C770390019397EB3001D31C6 /* AppIcon29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon29x29@2x.png"; sourceTree = "<group>"; };
+		C770390119397EB3001D31C6 /* AppIcon40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon40x40.png; sourceTree = "<group>"; };
+		C770390219397EB3001D31C6 /* AppIcon40x40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon40x40@2x.png"; sourceTree = "<group>"; };
+		C770390319397EB3001D31C6 /* AppIcon50x50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon50x50.png; sourceTree = "<group>"; };
+		C770390419397EB3001D31C6 /* AppIcon50x50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon50x50@2x.png"; sourceTree = "<group>"; };
+		C770390519397EB3001D31C6 /* AppIcon57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon57x57.png; sourceTree = "<group>"; };
+		C770390619397EB3001D31C6 /* AppIcon57x57@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon57x57@2x.png"; sourceTree = "<group>"; };
+		C770390719397EB3001D31C6 /* AppIcon60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon60x60.png; sourceTree = "<group>"; };
+		C770390819397EB3001D31C6 /* AppIcon60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon60x60@2x.png"; sourceTree = "<group>"; };
+		C770390919397EB3001D31C6 /* AppIcon72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon72x72.png; sourceTree = "<group>"; };
+		C770390A19397EB3001D31C6 /* AppIcon72x72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon72x72@2x.png"; sourceTree = "<group>"; };
+		C770390B19397EB3001D31C6 /* AppIcon76x76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon76x76.png; sourceTree = "<group>"; };
+		C770390C19397EB3001D31C6 /* AppIcon76x76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon76x76@2x.png"; sourceTree = "<group>"; };
+		C770390D19397EB3001D31C6 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
+		C770390E19397EB3001D31C6 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C721D3041929477100222C43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C721D30D1929477100222C43 /* CoreGraphics.framework in Frameworks */,
+				C721D30F1929477100222C43 /* UIKit.framework in Frameworks */,
+				C721D30B1929477100222C43 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C721D3251929477100222C43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C721D32A1929477100222C43 /* XCTest.framework in Frameworks */,
+				C721D32C1929477100222C43 /* UIKit.framework in Frameworks */,
+				C721D32B1929477100222C43 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C721D2FE1929477000222C43 = {
+			isa = PBXGroup;
+			children = (
+				C77038FE19397EB3001D31C6 /* App Icon [Squared] */,
+				C721D3101929477100222C43 /* SwipeGridGame */,
+				C721D32F1929477100222C43 /* SwipeGridGameTests */,
+				C721D3091929477100222C43 /* Frameworks */,
+				C721D3081929477100222C43 /* Products */,
+				C721D34B1929684C00222C43 /* chuck.jpg */,
+				C721D349192959E900222C43 /* pollock.jpg */,
+				C721D34F1929938900222C43 /* roy.jpg */,
+				C721D3511929975B00222C43 /* fountain.jpg */,
+				C721D34D192992C100222C43 /* bacon.jpg */,
+			);
+			sourceTree = "<group>";
+		};
+		C721D3081929477100222C43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C721D3071929477100222C43 /* Art Scroll.app */,
+				C721D3281929477100222C43 /* Art ScrollTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C721D3091929477100222C43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C721D30A1929477100222C43 /* Foundation.framework */,
+				C721D30C1929477100222C43 /* CoreGraphics.framework */,
+				C721D30E1929477100222C43 /* UIKit.framework */,
+				C721D3291929477100222C43 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C721D3101929477100222C43 /* SwipeGridGame */ = {
+			isa = PBXGroup;
+			children = (
+				C721D3191929477100222C43 /* THAppDelegate.h */,
+				C721D31A1929477100222C43 /* THAppDelegate.m */,
+				C721D31C1929477100222C43 /* Main.storyboard */,
+				C721D31F1929477100222C43 /* THViewController.h */,
+				C721D3201929477100222C43 /* THViewController.m */,
+				C721D3421929490E00222C43 /* THCell.h */,
+				C721D3431929490E00222C43 /* THCell.m */,
+				C721D33F1929487200222C43 /* THLevel.h */,
+				C721D3401929487200222C43 /* THLevel.m */,
+				C721D3221929477100222C43 /* Images.xcassets */,
+				C721D3111929477100222C43 /* Supporting Files */,
+			);
+			path = SwipeGridGame;
+			sourceTree = "<group>";
+		};
+		C721D3111929477100222C43 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C721D3121929477100222C43 /* Art Scroll-Info.plist */,
+				C721D3131929477100222C43 /* InfoPlist.strings */,
+				C721D3161929477100222C43 /* main.m */,
+				C721D3181929477100222C43 /* Art Scroll-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C721D32F1929477100222C43 /* SwipeGridGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				C721D3351929477100222C43 /* SwipeGridGameTests.m */,
+				C721D3301929477100222C43 /* Supporting Files */,
+			);
+			path = SwipeGridGameTests;
+			sourceTree = "<group>";
+		};
+		C721D3301929477100222C43 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C721D3311929477100222C43 /* SwipeGridGameTests-Info.plist */,
+				C721D3321929477100222C43 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C77038FE19397EB3001D31C6 /* App Icon [Squared] */ = {
+			isa = PBXGroup;
+			children = (
+				C77038FF19397EB3001D31C6 /* AppIcon29x29.png */,
+				C770390019397EB3001D31C6 /* AppIcon29x29@2x.png */,
+				C770390119397EB3001D31C6 /* AppIcon40x40.png */,
+				C770390219397EB3001D31C6 /* AppIcon40x40@2x.png */,
+				C770390319397EB3001D31C6 /* AppIcon50x50.png */,
+				C770390419397EB3001D31C6 /* AppIcon50x50@2x.png */,
+				C770390519397EB3001D31C6 /* AppIcon57x57.png */,
+				C770390619397EB3001D31C6 /* AppIcon57x57@2x.png */,
+				C770390719397EB3001D31C6 /* AppIcon60x60.png */,
+				C770390819397EB3001D31C6 /* AppIcon60x60@2x.png */,
+				C770390919397EB3001D31C6 /* AppIcon72x72.png */,
+				C770390A19397EB3001D31C6 /* AppIcon72x72@2x.png */,
+				C770390B19397EB3001D31C6 /* AppIcon76x76.png */,
+				C770390C19397EB3001D31C6 /* AppIcon76x76@2x.png */,
+				C770390D19397EB3001D31C6 /* iTunesArtwork.png */,
+				C770390E19397EB3001D31C6 /* iTunesArtwork@2x.png */,
+			);
+			path = "App Icon [Squared]";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C721D3061929477100222C43 /* Art Scroll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C721D3391929477100222C43 /* Build configuration list for PBXNativeTarget "Art Scroll" */;
+			buildPhases = (
+				C721D3031929477100222C43 /* Sources */,
+				C721D3041929477100222C43 /* Frameworks */,
+				C721D3051929477100222C43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Art Scroll";
+			productName = SwipeGridGame;
+			productReference = C721D3071929477100222C43 /* Art Scroll.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C721D3271929477100222C43 /* Art ScrollTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C721D33C1929477100222C43 /* Build configuration list for PBXNativeTarget "Art ScrollTests" */;
+			buildPhases = (
+				C721D3241929477100222C43 /* Sources */,
+				C721D3251929477100222C43 /* Frameworks */,
+				C721D3261929477100222C43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C721D32E1929477100222C43 /* PBXTargetDependency */,
+			);
+			name = "Art ScrollTests";
+			productName = SwipeGridGameTests;
+			productReference = C721D3281929477100222C43 /* Art ScrollTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C721D2FF1929477000222C43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TH;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "travis holt";
+				TargetAttributes = {
+					C721D3061929477100222C43 = {
+						DevelopmentTeam = U2FS6H847E;
+					};
+					C721D3271929477100222C43 = {
+						TestTargetID = C721D3061929477100222C43;
+					};
+				};
+			};
+			buildConfigurationList = C721D3021929477000222C43 /* Build configuration list for PBXProject "Art Scroll" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C721D2FE1929477000222C43;
+			productRefGroup = C721D3081929477100222C43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C721D3061929477100222C43 /* Art Scroll */,
+				C721D3271929477100222C43 /* Art ScrollTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C721D3051929477100222C43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C721D3501929938900222C43 /* roy.jpg in Resources */,
+				C721D34E192992C100222C43 /* bacon.jpg in Resources */,
+				C770390F19397EB3001D31C6 /* AppIcon29x29.png in Resources */,
+				C721D3231929477100222C43 /* Images.xcassets in Resources */,
+				C770391A19397EB3001D31C6 /* AppIcon72x72@2x.png in Resources */,
+				C770391119397EB3001D31C6 /* AppIcon40x40.png in Resources */,
+				C770391719397EB3001D31C6 /* AppIcon60x60.png in Resources */,
+				C721D3151929477100222C43 /* InfoPlist.strings in Resources */,
+				C770391419397EB3001D31C6 /* AppIcon50x50@2x.png in Resources */,
+				C770391D19397EB3001D31C6 /* iTunesArtwork.png in Resources */,
+				C770391B19397EB3001D31C6 /* AppIcon76x76.png in Resources */,
+				C770391919397EB3001D31C6 /* AppIcon72x72.png in Resources */,
+				C770391519397EB3001D31C6 /* AppIcon57x57.png in Resources */,
+				C770391219397EB3001D31C6 /* AppIcon40x40@2x.png in Resources */,
+				C770391819397EB3001D31C6 /* AppIcon60x60@2x.png in Resources */,
+				C721D31E1929477100222C43 /* Main.storyboard in Resources */,
+				C770391619397EB3001D31C6 /* AppIcon57x57@2x.png in Resources */,
+				C770391019397EB3001D31C6 /* AppIcon29x29@2x.png in Resources */,
+				C721D34A192959E900222C43 /* pollock.jpg in Resources */,
+				C770391E19397EB3001D31C6 /* iTunesArtwork@2x.png in Resources */,
+				C770391C19397EB3001D31C6 /* AppIcon76x76@2x.png in Resources */,
+				C721D34C1929684C00222C43 /* chuck.jpg in Resources */,
+				C721D3521929975B00222C43 /* fountain.jpg in Resources */,
+				C770391319397EB3001D31C6 /* AppIcon50x50.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C721D3261929477100222C43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C721D3341929477100222C43 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C721D3031929477100222C43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C721D3411929487200222C43 /* THLevel.m in Sources */,
+				C721D3211929477100222C43 /* THViewController.m in Sources */,
+				C721D31B1929477100222C43 /* THAppDelegate.m in Sources */,
+				C721D3441929490E00222C43 /* THCell.m in Sources */,
+				C721D3171929477100222C43 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C721D3241929477100222C43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C721D3361929477100222C43 /* SwipeGridGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C721D32E1929477100222C43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C721D3061929477100222C43 /* Art Scroll */;
+			targetProxy = C721D32D1929477100222C43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C721D3131929477100222C43 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C721D3141929477100222C43 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C721D31C1929477100222C43 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C721D31D1929477100222C43 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C721D3321929477100222C43 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C721D3331929477100222C43 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C721D3371929477100222C43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C721D3381929477100222C43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C721D33A1929477100222C43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwipeGridGame/Art Scroll-Prefix.pch";
+				INFOPLIST_FILE = "SwipeGridGame/Art Scroll-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "Art Scroll";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C721D33B1929477100222C43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwipeGridGame/Art Scroll-Prefix.pch";
+				INFOPLIST_FILE = "SwipeGridGame/Art Scroll-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "Art Scroll";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C721D33D1929477100222C43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SwipeGridGame.app/SwipeGridGame";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwipeGridGame/SwipeGridGame-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SwipeGridGameTests/SwipeGridGameTests-Info.plist";
+				PRODUCT_NAME = "Art ScrollTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C721D33E1929477100222C43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SwipeGridGame.app/SwipeGridGame";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwipeGridGame/SwipeGridGame-Prefix.pch";
+				INFOPLIST_FILE = "SwipeGridGameTests/SwipeGridGameTests-Info.plist";
+				PRODUCT_NAME = "Art ScrollTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C721D3021929477000222C43 /* Build configuration list for PBXProject "Art Scroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C721D3371929477100222C43 /* Debug */,
+				C721D3381929477100222C43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C721D3391929477100222C43 /* Build configuration list for PBXNativeTarget "Art Scroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C721D33A1929477100222C43 /* Debug */,
+				C721D33B1929477100222C43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C721D33C1929477100222C43 /* Build configuration list for PBXNativeTarget "Art ScrollTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C721D33D1929477100222C43 /* Debug */,
+				C721D33E1929477100222C43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C721D2FF1929477000222C43 /* Project object */;
+}
